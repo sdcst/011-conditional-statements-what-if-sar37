@@ -31,3 +31,17 @@ Enter a number: 10000
 
 
 """
+
+question = "enter a number"
+x = input(question)
+
+if 0<= x <=100:
+    print(0)
+
+if 10<= x <=100:
+    print(1)
+if 100<= x <=1000:
+    print(2)
+if x > 1000:
+    print(3)
+

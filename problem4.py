@@ -33,3 +33,27 @@ that is an obtuse triangle
 
 
 """
+x = ""
+y = ""
+h = ""
+b = ""
+
+
+first = input("enter in one side")
+second = input("enter a second side")
+third = input("enter a third side")
+
+firstt = (x**2 + y**2)**0.5 
+firstt = int(firstt)
+
+thridd =  1/2 * h * b
+thirdd = int(thridd)
+
+if first and second and third == firstt:
+    print("that is a right angle triangle")
+
+else:
+    first and second and third == thridd
+    print("That is an obtuse triangle")
+
+

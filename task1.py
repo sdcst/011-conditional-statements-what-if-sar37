@@ -19,3 +19,15 @@ The number is 100
 Enter a number: 102
 The number is larger than 100
 """
+x= 102
+if x > 100:
+    print("the number is larger than 100")
+
+x=90
+if x < 100:
+    print("the number is smaller than 100")
+
+x=100
+if x == 100:
+    print("the number is 100")
+
